@@ -1,0 +1,263 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  float: right;
+  margin-right: 1em;
+}
+.nav_elem {
+  z-index: 1000;
+}
+.nav_elem > a {
+  margin-left: 0.5em;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.home {
+  background-color: #151418;
+  /* background-color: black; */
+}
+
+.nav_elem > a:hover {
+  border: none;
+  border-bottom: 3px solid #6247aa;
+}
+
+.reg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.form {
+  position: absolute;
+  top: 2em;
+  left: 35em;
+}
+
+input {
+  margin-bottom: 1em;
+  outline: none;
+}
+
+.fnameinp {
+  margin-left: 2em;
+}
+
+.mnameinp {
+  margin-left: 0.6em;
+}
+
+.snameinp {
+  margin-left: 2.6em;
+}
+
+.unameinp {
+  margin-left: 2.3em;
+}
+
+.pass {
+  margin-left: 2.6em;
+}
+
+.cvup {
+  margin-left: 6.6em;
+}
+
+.email {
+  margin-left: 4.6em;
+}
+
+.mobi {
+  margin-left: 2.5em;
+}
+
+.faceBook {
+  margin-left: 2.6em;
+}
+
+.twitter {
+  margin-left: 4.5em;
+}
+
+.insta {
+  margin-left: 2.6em;
+}
+
+.form_sub {
+  width: 7.5em;
+  height: 2.5em;
+  border-radius: 0.5em;
+  border: none;
+  color: white;
+  background-color: #6247aa;
+  margin-left: 7em;
+}
+
+.form_sub:hover {
+  cursor: pointer;
+  background-color: #4361ee;
+}
+
+.fnameinp,
+.mnameinp,
+.email,
+.faceBook,
+.insta,
+.snameinp,
+.twitter,
+.mobi,
+.pass,
+.unameinp {
+  color: white;
+  font-size: 15px;
+  background-color: #151418;
+  border: none;
+  border-bottom: 2px solid white;
+}
+
+.charts {
+  position: relative;
+  top: 10em;
+  left: 4em;
+  width: 40em;
+  height: 20em;
+  border-radius: 1em;
+  z-index: 2;
+}
+
+.blob {
+  position: absolute;
+  left: 44em;
+  margin: 0;
+  padding: 0;
+  top: -4em;
+  width: 40em;
+  height: 50em;
+  color: black;
+  z-index: 0;
+}
+
+.bwrite {
+  position: absolute;
+  color: black;
+  width: 15em;
+  left: 32em;
+  top: 10em;
+  font-size: 25px;
+}
+
+.foot {
+  background-color: #6247aa;
+}
+
+.footer {
+  position: absolute;
+  top: 43em;
+  left: 40em;
+  width: 40em;
+}
+
+.pForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 30em;
+  top: 5em;
+}
+
+.onename {
+  margin-left: 3em;
+}
+
+.twoname {
+  margin-left: 3.5em;
+}
+
+.fourname {
+  margin-left: 3.5em;
+}
+
+.fivename {
+  margin-left: 0.6em;
+}
+
+.sixname {
+  margin-left: 1.6em;
+}
+
+.sevenname {
+  margin-left: 0.5em;
+}
+
+.eightname {
+  margin-left: 7em;
+}
+
+.onename,
+.twoname,
+.threename,
+.fourname,
+.fivename,
+.sixname,
+.sevenname,
+.eightname {
+  background-color: #151418;
+  border: none;
+  border-bottom: 2px solid white;
+}
+
+.form_reg {
+  align-items: center;
+}
+
+.threename {
+  margin-bottom: 9px;
+  margin-left: 3.5em;
+}
+
+.threelab {
+  margin-bottom: 11px;
+}
+
+.mcard {
+  padding-left: 2em;
+  padding-bottom: 2em;
+  margin-bottom: 3em;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 40em;
+  position: relative;
+  top: 6em;
+  left: 20em;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.add {
+  position: absolute;
+  left: 5em;
+  top: 6em;
+  height: 30px;
+  border: none;
+  border-radius: 2px;
+  background-color: #6247aa;
+}
+
+.add:hover {
+  cursor: pointer;
+  background-color: #4361ee;
+}
+
+.add > a {
+  text-decoration: none;
+  color: white;
+}
